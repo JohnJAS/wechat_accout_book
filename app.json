@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFC0CB",
+    "navigationBarTitleText": "MiMi Accout Book",
+    "navigationBarTextStyle":"black"
+  }
+}
