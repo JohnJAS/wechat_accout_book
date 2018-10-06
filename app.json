@@ -1,12 +1,14 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/detail/detail",
+    "pages/operate/operate",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#FFC0CB",
     "navigationBarTitleText": "MiMi Accout Book",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"white"
   }
 }

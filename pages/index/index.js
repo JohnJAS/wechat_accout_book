@@ -4,7 +4,6 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -15,13 +14,25 @@ Page({
       url: '../logs/logs'
     })
   },
-  onLoad: function () {
+  //事件：跳转到明细页面
+  gotoDetail: function (event) {
+    wx.navigateTo({
+      url: '../detail/detail'
+    })
+  },
+  //事件：进行账目操作
+  operateAccount: function (event) {
+    wx.navigateTo({
+      url: '../operate/operate'
+    })
+  },
+  onLoad: function() {
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
         hasUserInfo: true
       })
-    } else if (this.data.canIUse){
+    } else if (this.data.canIUse) {
       // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
       // 所以此处加入 callback 以防止这种情况
       app.userInfoReadyCallback = res => {
