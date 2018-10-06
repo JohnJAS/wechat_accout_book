@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="page">
+  <view class="page__bd page__bd_spacing">
+    <view class="page__bd page__bd_spacing">
+        <button class="weui-btn" type="primary" >本金修改</button>
+        <button class="weui-btn" type="primary" >账目修改</button>
+    </view>
+  </view>
+</view>
