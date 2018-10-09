@@ -1,9 +1,12 @@
 <!--index.wxml-->
 <view class="page">
+  <view class="weui-cells__title">账目操作</view>
   <view class="page__bd page__bd_spacing">
-    <view class="page__bd page__bd_spacing">
-        <button class="weui-btn" type="primary" >本金修改</button>
-        <button class="weui-btn" type="primary" >账目修改</button>
+    <view class="page__bd page__bd_spacing pg_body_content">
+        <button class="weui-btn" type="primary" >新增账目</button>
+        <button class="weui-btn" type="primary" >修改账目</button>
+        <button class="weui-btn" type="primary" >删除账目</button>
+        <button class="weui-btn" type="primary" bindtap="gotoDetail">账目明细</button>
     </view>
   </view>
 </view>

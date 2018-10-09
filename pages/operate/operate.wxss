@@ -1,0 +1,6 @@
+.pg_body_content {
+  margin-top: 5em;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+}
