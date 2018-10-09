@@ -14,12 +14,6 @@ Page({
       url: '../logs/logs'
     })
   },
-  //事件：跳转到明细页面
-  gotoDetail: function (event) {
-    wx.navigateTo({
-      url: '../detail/detail'
-    })
-  },
   //事件：进行账目操作
   operateAccount: function (event) {
     wx.navigateTo({

@@ -10,37 +10,48 @@
     </view>
     <view class="weui-cells weui-cells_after-title">
         <view class="weui-cell">
-            <view class="weui-cell__bd">本金</view>
+            <view class="weui-cell__bd">最近收益</view>
             <view class="weui-cell__ft">xxx元</view>
         </view>
     </view>
     <view class="weui-cells weui-cells_after-title">
         <view class="weui-cell">
-            <view class="weui-cell__bd">当月月化利率</view>
+            <view class="weui-cell__bd">最近本金</view>
+            <view class="weui-cell__ft">xxx元</view>
+        </view>
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell">
+            <view class="weui-cell__bd">最近月化利率</view>
             <view class="weui-cell__ft">xx%</view>
         </view>
     </view>
     <view class="weui-cells weui-cells_after-title">
         <view class="weui-cell">
-            <view class="weui-cell__bd">当月年华化利率</view>
+            <view class="weui-cell__bd">最近年华化利率</view>
             <view class="weui-cell__ft">xx%</view>
         </view>
     </view>
     <view class="weui-cells weui-cells_after-title">
         <view class="weui-cell">
-            <view class="weui-cell__bd">平均月化利率</view>
+            <view class="weui-cell__bd">总体本金</view>
+            <view class="weui-cell__ft">xxx元</view>
+        </view>
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell">
+            <view class="weui-cell__bd">总体月化利率</view>
             <view class="weui-cell__ft">xx%</view>
         </view>
     </view>
     <view class="weui-cells weui-cells_after-title">
         <view class="weui-cell">
-            <view class="weui-cell__bd">平均年华化利率</view>
+            <view class="weui-cell__bd">总体年华化利率</view>
             <view class="weui-cell__ft">xx%</view>
         </view>
     </view>
   </view>
   <view class="page__bd page__bd_spacing">
-      <button class="weui-btn" type="primary" bindtap="gotoDetail">账目明细</button>
       <button class="weui-btn" type="primary" bindtap="operateAccount">账目操作</button>
   </view>
 </view>
